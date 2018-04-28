@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 #with open('mysite/secret_key.txt') as f:
-#    SECRET_KEY = f.read().strip()
+SECRET_KEY = '6v_(p$sq@)))n$1oee6fq79)n7!cw1qfttso8gvn^c9%7gbyy-'
 
 #this is very helpful when set to True
 DEBUG = True
