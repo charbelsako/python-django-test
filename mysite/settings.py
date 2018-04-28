@@ -20,8 +20,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 
-with open('mysite/secret_key.txt') as f:
-    SECRET_KEY = f.read().strip()
+#with open('mysite/secret_key.txt') as f:
+#    SECRET_KEY = f.read().strip()
 
 #this is very helpful when set to True
 DEBUG = True
