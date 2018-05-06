@@ -15,11 +15,6 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
-
-
 #with open('mysite/secret_key.txt') as f:
 SECRET_KEY = '6v_(p$sq@)))n$1oee6fq79)n7!cw1qfttso8gvn^c9%7gbyy-'
 

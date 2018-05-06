@@ -20,7 +20,7 @@ class QuestionModelTests(TestCase):
         """
         this function return False if the question is older than 1 day
         """
-        time = timezone.now() + datetime.timedelta(days=30)
+        time = timezone.now() + datetime.timedelta(days=-30)
         future_question = Question(pub_date=time)
         self.assertIs(future_question.was_published_recently(), False)
     
